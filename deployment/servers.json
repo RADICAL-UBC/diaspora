@@ -1,0 +1,16 @@
+{
+   "servers": [
+   {"hostname": "localhost", "port": "8001"},
+   {"hostname": "localhost", "port": "8002"},
+   {"hostname": "localhost", "port": "8003"},
+   {"hostname": "localhost", "port": "8004"},
+   {"hostname": "localhost", "port": "8005"},
+   {"hostname": "localhost", "port": "8006"}
+   ],
+  
+   "clients": [
+   {"hostname": "localhost", "port": "8007"}
+   ],
+
+   "oms": {"hostname": "localhost", "port": "8000"}
+}
