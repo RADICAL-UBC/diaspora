@@ -1,0 +1,6 @@
+diaspora/appexamples/todolist/app/stubs/TodoList_Stub.class
+diaspora/appexamples/todolist/device/TodoActivity.class
+diaspora/appexamples/todolist/app/stubs/TodoListManager_Stub.class
+diaspora/appexamples/todolist/app/TodoListManager.class
+diaspora/appexamples/todolist/cloud/TodoStart.class
+diaspora/appexamples/todolist/app/TodoList.class
