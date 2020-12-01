@@ -94,3 +94,18 @@ The subdirectories `java`, `javax`, and `org` of `diaspora/app/src/main/java/`
 contain source code from the Apache Harmony project (with slight modifications
 to some files). These source files are distributed under the Apache License.
 The full license is in the file `LICENSE-apache-harmony`.
+
+
+## Usage with Docker 
+
+* Build the image in the root directory
+  * `docker build -t jdkimage .`
+
+* Run the docker container
+  * `docker run -it  -v "$PWD":/app --name jdkcontainer jdkimage bash`
+  * this container have python, maven and jdk and you can follow the instructions above to run mvn package, etc.
+
+* to exit the containter:
+  * enter `exit`
+
+* to start it once again: `docker start jdkcontainer` then `docker exec -it jdkcontainer bash`
